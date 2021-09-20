@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>presentacion on SolucionesGlobales</title>
+    <link>http://soluciones-globales.github.io/categories/presentacion/</link>
+    <description>Recent content in presentacion on SolucionesGlobales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://soluciones-globales.github.io/categories/presentacion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Soluciones Globales</title>
+      <link>http://soluciones-globales.github.io/presentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/presentation/</guid>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;http://soluciones-globales.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

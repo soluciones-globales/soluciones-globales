@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seguridad on SolucionesGlobales</title>
+    <link>http://soluciones-globales.github.io/tags/seguridad/</link>
+    <description>Recent content in seguridad on SolucionesGlobales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Sep 2021 21:49:20 +0200</lastBuildDate><atom:link href="http://soluciones-globales.github.io/tags/seguridad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SEGURIDAD Y SALUD EN EL TRABAJO ECUADOR</title>
+      <link>http://soluciones-globales.github.io/blog/2021/09/02/seguridad_salud_ecuador/</link>
+      <pubDate>Thu, 02 Sep 2021 21:49:20 +0200</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/blog/2021/09/02/seguridad_salud_ecuador/</guid>
+      <description>Es una serie de normativas nacionales que deben ser implementadas y cumplidas por las diferentes empresas de acuerdo a su tamaño. que especifica  los requisitos para la implementación y cumplimiento de la normativa nacional vigente en temas de Seguridad y Salud en el Trabajo.</description>
+    </item>
+    
+    <item>
+      <title>Seguridad: ISO 45001:2018</title>
+      <link>http://soluciones-globales.github.io/blog/2021/09/01/seguridad_45001_2018/</link>
+      <pubDate>Wed, 01 Sep 2021 13:39:46 +0200</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/blog/2021/09/01/seguridad_45001_2018/</guid>
+      <description>Es utilizado por las empresas como medida de prevención contra daños y deterioro a la salud de los trabajadores , por ende proporciona condiciones de trabajo seguras y saludables que a su vez se reflejan en mayores beneficios económicos en las empresas que la implementan.</description>
+    </item>
+    
+    <item>
+      <title>SEGURIDAD Y SALUD EN EL TRABAJO ECUADOR</title>
+      <link>http://soluciones-globales.github.io/consulting/seguridad_salud_iess_mte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/consulting/seguridad_salud_iess_mte/</guid>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at [installing hugo](/overview/installing/</description>
+    </item>
+    
+    <item>
+      <title>Seguridad: ISO 45001:2018</title>
+      <link>http://soluciones-globales.github.io/consulting/iso_45001/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/consulting/iso_45001/</guid>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;http://soluciones-globales.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

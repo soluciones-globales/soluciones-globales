@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calidad on SolucionesGlobales</title>
+    <link>http://soluciones-globales.github.io/tags/calidad/</link>
+    <description>Recent content in calidad on SolucionesGlobales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Sep 2021 13:50:46 +0200</lastBuildDate><atom:link href="http://soluciones-globales.github.io/tags/calidad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calidad: ISO 9001:2015</title>
+      <link>http://soluciones-globales.github.io/blog/2021/09/01/calidad_9001_2015/</link>
+      <pubDate>Wed, 01 Sep 2021 13:50:46 +0200</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/blog/2021/09/01/calidad_9001_2015/</guid>
+      <description>Es el estándar internacional de carácter certificable que regula los Sistemas de Gestión de la Calidad (SGC). La serie de normas ISO 9000 promueven la adopción de un enfoque basado en procesos.</description>
+    </item>
+    
+    <item>
+      <title>Calidad: ISO 9001:2015</title>
+      <link>http://soluciones-globales.github.io/consulting/iso_9001_2015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/consulting/iso_9001_2015/</guid>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;http://soluciones-globales.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

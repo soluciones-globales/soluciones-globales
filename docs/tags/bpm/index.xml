@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bpm on SolucionesGlobales</title>
+    <link>http://soluciones-globales.github.io/tags/bpm/</link>
+    <description>Recent content in bpm on SolucionesGlobales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Sep 2021 21:29:20 +0200</lastBuildDate><atom:link href="http://soluciones-globales.github.io/tags/bpm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sistemas integrados de inocuidad alimentaria-bpm (ARCSACODEX), HACCP, ISO/FSSC 22000 V. 5.1</title>
+      <link>http://soluciones-globales.github.io/blog/2021/09/01/bpm/</link>
+      <pubDate>Wed, 01 Sep 2021 21:29:20 +0200</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/blog/2021/09/01/bpm/</guid>
+      <description>Los sistemas integrados de inocuidad son herramientas básicas para la obtención de productos seguros e inocuos  para el consumo humano, que se centralizan en la higiene y la forma de manipulación de los mismos.</description>
+    </item>
+    
+    <item>
+      <title>SISTEMAS INTEGRADOS DE INOCUIDAD ALIMENTARIA – BPM (ARCSACODEX), HACCP, ISO/FSSC 22000 V. 5.1</title>
+      <link>http://soluciones-globales.github.io/consulting/bpm/</link>
+      <pubDate>Wed, 01 Sep 2021 13:39:46 +0200</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/consulting/bpm/</guid>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;http://soluciones-globales.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

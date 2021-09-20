@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calibracion on SolucionesGlobales</title>
+    <link>http://soluciones-globales.github.io/tags/calibracion/</link>
+    <description>Recent content in calibracion on SolucionesGlobales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Sep 2021 13:47:08 +0200</lastBuildDate><atom:link href="http://soluciones-globales.github.io/tags/calibracion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calibración: ISO 17025:2017</title>
+      <link>http://soluciones-globales.github.io/blog/2021/09/02/calibraci%C3%B3n_17025_2017/</link>
+      <pubDate>Thu, 02 Sep 2021 13:47:08 +0200</pubDate>
+      
+      <guid>http://soluciones-globales.github.io/blog/2021/09/02/calibraci%C3%B3n_17025_2017/</guid>
+      <description>No ostentar un certificado de calidad es una limitación para trabajar en mercados tan exigentes como el de la METROLOGÍA, MEDIOAMBIENTE, ALIMENTACIÓN..etc., o para optar a trabajos con la administración pública</description>
+    </item>
+    
+  </channel>
+</rss>
