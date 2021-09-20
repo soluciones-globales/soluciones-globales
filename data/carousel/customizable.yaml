@@ -1,0 +1,12 @@
+weight: 1
+title: "Asesoria"
+description: >
+  <ul class="list-style-none">
+    <li>Planeamiento y Diagnóstico</li>
+    <li>Diseño del sistema de gestión (SG)</li>
+    <li>Implementación de normativas</li>
+    <li>Auditorias internas de SG</li>
+    <li>Certificación de SG</li>
+    <li>Seguimiento y mantenimiento de SG</li>
+  </ul>
+image: "img/carousel/consulting.jpg"

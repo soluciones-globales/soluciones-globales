@@ -1,0 +1,11 @@
+weight: 4
+title: "Experiencia"
+description: >
+  <ul class="list-style-none">
+    <li>Ingenieros con maestrías en gestión</li>
+    <li>Auditorías realizadas a más de 100 empresas</li>
+    <li>Auditores certificados por Bureau Veritas</li>
+    <li>Experiencia en auditorias internacionales como BSI</li>
+    <li>Altos conocimientos de las normas ISO</li>
+  </ul>
+image: "img/carousel/experience.png"

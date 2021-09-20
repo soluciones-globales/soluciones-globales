@@ -1,0 +1,404 @@
+#baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseURL = "http://examplesite.org/"
+title = "SolucionesGlobales"
+theme = "universal"
+themesDir = "./themes"
+languageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "es"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "devcows"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
+# Define the number of posts per page
+paginate = 10
+
+[menu]
+
+
+# Main menu
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.main"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Quienes Somos"
+    identifier = "menu.home"
+    url        = "/img/quienes_somos.png"
+    weight     = 3
+
+[[menu.main]]
+    name       = "Presentacion"
+    identifier = "section.presentation"
+    url        = "/presentation/presentation"
+    weight     = 1
+    parent     = "menu.home"
+    post       = 1
+
+[[menu.main]]
+    name       = "Presentacion"
+    url        = "/presentation/presentation"
+    weight     = 1
+    parent     = "section.presentation"
+
+[[menu.main]]
+    name       = "Experiencia"
+    identifier = "section.experience"
+    url        = "/presentation/experience"
+    weight     = 2
+    parent     = "menu.home"
+    post       = 2
+
+[[menu.main]]
+    name       = "Experiencia"
+    url        = "/presentation/experience"
+    weight     = 1
+    parent     = "section.experience"
+
+[[menu.main]]
+    name       = "Servicios"
+    identifier = "menu.features"
+    url        = "/img/services.png"
+    weight     = 3
+
+[[menu.main]]
+    name       = "Capacitacion"
+    identifier = "section.shortcodes"
+    url        = "/services/training"
+    weight     = 1
+    parent     = "menu.features"
+    post       = 1
+
+[[menu.main]]
+    name       = "Esquemas listos"
+    identifier = "section.headervariations"
+    url        = "/services/schema"
+    weight     = 2
+    parent     = "menu.features"
+    post       = 2
+
+[[menu.main]]
+    name       = "Capacitacion"
+    url        = "/services/training"
+    weight     = 1
+    parent     = "section.shortcodes"
+
+
+[[menu.main]]
+    name       = "Documentos listos para implementacion y verificacion"
+    url        = "/services/schema"
+    weight     = 1
+    parent     = "section.headervariations"
+
+
+[[menu.main]]
+    name       = "Asesoria"
+    identifier = "menu.portfolio"
+    url        = "/img/asesoria.png"
+    weight     = 4
+
+[[menu.main]]
+    name       = "Calidad"
+    identifier = "section.portfolio"
+    url        = ""
+    weight     = 1
+    parent     = "menu.portfolio"
+    post       = 1
+
+[[menu.main]]
+    name       = "Calidad: ISO 9001:2015"
+    url        = "/consulting/iso_9001_2015"
+    weight     = 1
+    parent     = "section.portfolio"
+
+
+[[menu.main]]
+    name       = "Ambiente"
+    identifier = "section.environment"
+    url        = ""
+    weight     = 3
+    parent     = "menu.portfolio"
+    post       = 1
+
+[[menu.main]]
+    name       = "Ambiente: ISO 14001:2015"
+    url        = "/consulting/iso_14001_2015"
+    weight     = 2
+    parent     = "section.environment"
+
+[[menu.main]]
+    name       = "Calibration"
+    identifier = "section.calibration"
+    url        = ""
+    weight     = 2
+    parent     = "menu.portfolio"
+    post       = 1
+
+[[menu.main]]
+    name       = "Actividades de Ensayos o Calibración: ISO 17025"
+    url        = "/consulting/iso_17025"
+    weight     = 2
+    parent     = "section.calibration"
+
+
+[[menu.main]]
+    name       = "Seguridad"
+    identifier = "section.about"
+    url        = ""
+    weight     = 2
+    parent     = "menu.portfolio"
+    post       = 2
+
+[[menu.main]]
+    name       = "Seguridad y Salud Ocupacional: ISO 45001"
+    url        = "/consulting/iso_45001"
+    weight     = 1
+    parent     = "section.about"
+
+
+[[menu.main]]
+    name       = "Seguridad y Salud Ocupacional Ecuador Ministerio de Trabajo e IESS"
+    url        = "/consulting/seguridad_salud_iess_mte"
+    weight     = 2
+    parent     = "section.about"
+
+[[menu.main]]
+    name       = "Alimentos"
+    identifier = "section.marketing"
+    url        = ""
+    weight     = 3
+    parent     = "menu.portfolio"
+    post       = 2
+
+[[menu.main]]
+    name       = "BPM (Buenas Practicas de Manufactura)"
+    url        = "/consulting/bpm"
+    weight     = 1
+    parent     = "section.marketing"
+
+[[menu.main]]
+    name       = "HACCP"
+    url        = "/consulting/bpm"
+    weight     = 1
+    parent     = "section.marketing"
+
+[[menu.main]]
+    name       = "ISO/FSSC 22000 V.5.1"
+    url        = "/consulting/bpm"
+    weight     = 1
+    parent     = "section.marketing"
+
+
+[[menu.main]]
+    name       = "Blog"
+    identifier = "menu.blog"
+    url        = "/blog/"
+    weight     = 5
+
+
+[[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact/"
+    weight     = 7
+
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 1
+    name = "Phone"
+    url = "tel:+593 98 44 23 517"
+    pre = "<i class='fas fa-2x fa-phone'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "GitHub"
+    url = "https://github.com/devcows/hugo-universal-theme"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 3
+    name = "Facebook"
+    url = "https://www.linkedin.com/in/ximena-soto-b8018316a/"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 4
+    name = "Twitter"
+    url = "http://twitter.com"
+    pre = "<i class='fab fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+    weight = 5
+    name = "Email"
+    url = "mailto:infosolucionesglobales2020@gmail.com"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devcows", "hugo", "go"]
+    mainSections = ["blog"]
+    defaultDescription = "Site template made by devcows using hugo"
+
+    # Social media
+    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+    default_sharing_image = "img/sharing-default.png"
+
+    # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
+    enableGoogleMaps = true
+    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+
+    latitude = "-12.043333"
+    longitude = "-77.028333"
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default" #blue, green, marsala, pink, red, turquoise, violet
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 50 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - register your account to https://formspree.io/register
+    # - login and create new form
+    # - set your form's endpoint url under 'formspree_action' below
+    # - upload the generated site to your server
+    # - test a dummy email yourself
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io endpoint url
+    formspree_action = "https://formspree.io/sample/of/endpoint"
+    contact_form_ajax = false
+
+    # Formspree form supports Google reCAPTCHA Key (type v2).
+    # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
+    #
+    # By default, Formspree use a redirect page for recaptcha widget.
+    # If you use a recaptcha widget in your contact page, you should do next steps.
+    # (if you don't want, skip these steps)
+    #
+    #   1. register your site on Google recaptcha admin page: https://www.google.com/recaptcha/admin
+    #   2. select reCAPTCHA v2 and checkbox widget type.
+    #   3. remember site key and secret key.
+    #   4. enter secret key into "Custom reCAPTCHA Key" field in your Formspree form setting page.
+    #   5. change `enableRecaptchaInContactForm` is to true
+    #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
+    #
+    enableRecaptchaInContactForm = false
+    googleRecaptchaKey = "site_key_for_google_recaptcha"
+
+    about_us = "<p>Somos gente innovadora y con ganas de servir y ayudar al desarrollo del pais.</p>"
+    copyright = "Copyright (c) 2021 - 2022, YourCompany; all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    disabled_logo = false
+    logo_text = "Universal"
+
+    logo = "img/logo-sol.png"
+    logo_small = "img/logo-small.png"
+    contact_url = "/contact"
+    address = """<p class="text-uppercase"><strong>Conocoto, La Salle</strong>
+        <br>Coop. Don Eloy Sector
+        <br>Calle Manabí y galápagos s/n
+        <br>+593 98 44 23 517
+        <br>infosolucionesglobales2020@gmail.com
+        <br>
+        <strong>Quito-Ecuador</strong>
+      </p>
+      """
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = """<p class="hidden-sm hidden-xs">Contact us on +593 98 44 23 517 or infosolucionesglobales2020@gmail.com.</p>
+      <p class="hidden-md hidden-lg"><a href="+593 98 44 23 517" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:infosolucionesglobales2020@gmail.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carouselCustomers]
+    items = 6
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselTestimonals]
+    items = 4
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.features]
+    enable = true
+    cols = 3 # Default: 3, Available values 2,3,4,6
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.see_more]
+    enable = true
+    icon = "far fa-file-alt"
+    title = "Consulta nuestras paginas"
+    subtitle = "Somos ingenieros altamente capacitados con maestrías en gestión"
+    link_url = "/presentation/presentation"
+    link_text = "Quienes somos"
+
+[params.clients]
+    enable = false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Our Clients"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = true
+    title = "Nuestros Productos"
+    subtitle = "Asesoría para esquemas"
+    hide_summary = false
+
+[params.footer.recent_posts]
+    enable = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
