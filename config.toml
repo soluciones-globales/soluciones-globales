@@ -1,5 +1,7 @@
 #baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-baseURL = "http://examplesite.org/"
+#baseURL = "http://examplesite.org/"
+publishdir = "docs"
+baseURL = "http://soluciones-globales.github.io/"
 title = "SolucionesGlobales"
 theme = "universal"
 themesDir = "./themes"
@@ -220,7 +222,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 2
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/soluciones-globales"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
@@ -231,9 +233,10 @@ paginate = 10
 
 [[menu.topbar]]
     weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/soluciones-globales-5582851a9/"
+    pre = "<i class='fab fa-2x fa-linkedin'></i>"
+    
 
 [[menu.topbar]]
     weight = 5
@@ -325,7 +328,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +593 98 44 23 517 or infosolucionesglobales2020@gmail.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Contactanos al  +593 98 44 23 517 or infosolucionesglobales2020@gmail.com.</p>
       <p class="hidden-md hidden-lg"><a href="+593 98 44 23 517" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:infosolucionesglobales2020@gmail.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
